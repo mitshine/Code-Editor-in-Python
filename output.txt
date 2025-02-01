@@ -1,0 +1,64 @@
+C:\Users\Admin\Downloads\python_exercises\editor>pip install pyinstaller
+C:\Users\Admin\Downloads\python_exercises\editor>pyinstaller --onefile -w editor_plan.py --windowed --icon icon.png
+202 INFO: PyInstaller: 6.11.1, contrib hooks: 2025.1
+203 INFO: Python: 3.12.5
+234 INFO: Platform: Windows-11-10.0.26100-SP0
+234 INFO: Python environment: C:\Users\Admin\AppData\Local\Programs\Python\Python312
+234 INFO: wrote C:\Users\Admin\Downloads\python_exercises\editor\editor_plan.spec
+262 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\Admin\\Downloads\\python_exercises\\editor']
+675 INFO: checking Analysis
+675 INFO: Building Analysis because Analysis-00.toc is non existent
+675 INFO: Running Analysis Analysis-00.toc
+675 INFO: Target bytecode optimization level: 0
+675 INFO: Initializing module dependency graph...
+678 INFO: Initializing module graph hook caches...
+690 INFO: Analyzing base_library.zip ...
+1668 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+1843 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+3328 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+4376 INFO: Caching module dependency graph...
+4459 INFO: Looking for Python shared library...
+4462 INFO: Using Python shared library: C:\Users\Admin\AppData\Local\Programs\Python\Python312\python312.dll
+4464 INFO: Analyzing C:\Users\Admin\Downloads\python_exercises\editor\editor_plan.py
+4490 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+4491 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+4676 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+4714 INFO: Processing module hooks (post-graph stage)...
+4718 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+4728 INFO: Performing binary vs. data reclassification (925 entries)
+4814 INFO: Looking for ctypes DLLs
+4821 INFO: Analyzing run-time hooks ...
+4822 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+4824 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+4846 INFO: Looking for dynamic libraries
+4981 INFO: Extra DLL search directories (AddDllDirectory): []
+4981 INFO: Extra DLL search directories (PATH): []
+5106 INFO: Warnings written to C:\Users\Admin\Downloads\python_exercises\editor\build\editor_plan\warn-editor_plan.txt
+5133 INFO: Graph cross-reference written to C:\Users\Admin\Downloads\python_exercises\editor\build\editor_plan\xref-editor_plan.html
+5167 INFO: checking PYZ
+5167 INFO: Building PYZ because PYZ-00.toc is non existent
+5167 INFO: Building PYZ (ZlibArchive) C:\Users\Admin\Downloads\python_exercises\editor\build\editor_plan\PYZ-00.pyz
+5432 INFO: Building PYZ (ZlibArchive) C:\Users\Admin\Downloads\python_exercises\editor\build\editor_plan\PYZ-00.pyz completed successfully.
+5457 INFO: checking PKG
+5457 INFO: Building PKG because PKG-00.toc is non existent
+5457 INFO: Building PKG (CArchive) editor_plan.pkg
+8257 INFO: Building PKG (CArchive) editor_plan.pkg completed successfully.
+8273 INFO: Bootloader C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+8273 INFO: checking EXE
+8273 INFO: Building EXE because EXE-00.toc is non existent
+8273 INFO: Building EXE from EXE-00.toc
+8274 INFO: Copying bootloader EXE to C:\Users\Admin\Downloads\python_exercises\editor\dist\editor_plan.exe
+8329 INFO: Copying icon to EXE
+8505 INFO: Copying 0 resources to EXE
+8505 INFO: Embedding manifest in EXE
+8549 INFO: Appending PKG archive to EXE
+14068 INFO: Fixing EXE headers
+29773 INFO: Building EXE from EXE-00.toc completed successfully.
